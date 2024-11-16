@@ -9,7 +9,7 @@ import { URI } from "vscode-uri";
 
 export const analogLanguagePlugin: LanguagePlugin<URI> = {
   getLanguageId(uri) {
-    if (uri.path.endsWith(".analog") || uri.path.endsWith(".ag")) {
+    if (uri.path.endsWith(".analog") || uri.path.endsWith(".ag") || uri.path.endsWith(".agx")) {
       return "analog";
     }
   },

@@ -32,7 +32,8 @@
         },
         "extensions": [
           ".analog",
-          ".ag"
+          ".ag",
+          ".agx"
         ]
       }
     ],
